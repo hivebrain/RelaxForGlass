@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0px"
+    android:gravity="fill_vertical"
+    android:paddingBottom="@dimen/zeroM"
+    android:paddingLeft="@dimen/zeroM"
+    android:paddingRight="@dimen/zeroM"
+    android:paddingTop="@dimen/zeroM"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0px" />
+
+</RelativeLayout>
